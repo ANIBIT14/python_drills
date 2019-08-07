@@ -15,8 +15,7 @@ def word_count(s):
         else:
             count[word] = 1
     return count
-    pass
-
+    
 
 def dict_items(d):
     """
@@ -24,7 +23,7 @@ def dict_items(d):
     """
     l = [(k,v) for k,v in d.items()]
     return l
-    pass
+    
 
 
 def dict_items_sorted(d):
@@ -34,6 +33,6 @@ def dict_items_sorted(d):
     """
     l = sorted([(k,v) for k,v in d.items()])
     return l
-    pass
+    
 
 print(word_count("Python is an interpreted, high-level, general-purpose programming language. Python interpreters are available for many operating systems. Python is a multi-paradigm programming language. Object-oriented programming and structured programming are fully supported."))
