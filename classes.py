@@ -18,4 +18,4 @@ class Point:
         return ((((self.x - p.x) ** 2) + ((self.y - p.y) ** 2)) ** 0.5)
 
     
-    pass
+    
