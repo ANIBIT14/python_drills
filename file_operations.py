@@ -44,6 +44,3 @@ def numbers_and_squares(n, file_path):
             csv_file.write(st1)
 
            
-        
-
-    pass
