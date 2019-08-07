@@ -10,20 +10,20 @@ def read_file(path):
         s = f.read()
     return s
     
-    pass
+    
 
 
 def write_to_file(path, s):
     with open(path, 'w') as f:
         f.write(s)
     
-    pass
+    
 
 
 def append_to_file(path, s):
     with open(path, 'a') as f:
         f.write(s)
-    pass
+
 
 
 def numbers_and_squares(n, file_path):
