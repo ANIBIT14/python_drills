@@ -5,7 +5,7 @@ def unique(items):
     Return a set of unique values belonging to the `items` list
     """
     return list(set(items))
-    pass
+    
 
 
 def shuffle(items):
