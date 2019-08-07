@@ -4,7 +4,7 @@ def integers_from_start_to_end_using_range(start, end, step):
         l.append(i)
     """return a list"""
     return l
-    pass
+    
 
 
 def integers_from_start_to_end_using_while(start, end, step):
@@ -21,7 +21,7 @@ def integers_from_start_to_end_using_while(start, end, step):
             l.append(start)
             start += step
         return l
-    pass
+    
 
 
 def two_digit_primes():
@@ -39,5 +39,5 @@ def two_digit_primes():
                 l.append(num)
     
     return (l)
-    pass
+    
 
