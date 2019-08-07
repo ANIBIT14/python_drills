@@ -30,7 +30,7 @@ def add_n(*args):
     returns the sum of all the arguments
     """
     return(sum(args))
-    pass
+    
 
 
 def add_kwargs(**kwargs):
@@ -45,7 +45,7 @@ def add_kwargs(**kwargs):
         return ('Values other than a and b are entered please correct this issue.')
     else:
         return sum(kwargs.values())
-    pass
+    
 
 
 def universal_acceptor(*args, **kwargs):
@@ -57,7 +57,7 @@ def universal_acceptor(*args, **kwargs):
     print (args)
     print(kwargs)
 
-    pass
+    
 
 print(unpacking1())
 print(unpacking2())
